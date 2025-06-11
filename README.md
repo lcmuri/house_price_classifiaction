@@ -1,4 +1,4 @@
-# Housing Price Classification Project\*\*
+# Housing Price Classification Project
 
 ![](images/house.jpeg)
 
@@ -26,8 +26,8 @@ Before model training, extensive data preparation was performed:
 
 - **Missing Values:** Numerical missing values (e.g., for LotFrontage) were imputed using the median, while categorical missing values (e.g., for PoolQC, indicating no pool) were imputed with the most frequent category.
 - **Feature Scaling:** Numerical features were standardized using StandardScaler to bring them to a similar scale, which is crucial for distance-based models like Logistic Regression and can benefit tree-based models indirectly.
-- **Categorical Encoding:** Categorical features were converted into a numerical format using OneHotEncoder, creating binary columns for each unique category. handle_unknown='ignore' was set to robustly manage new categories unseen during training.
-- **Data Splitting:** The training dataset was split into training and validation sets (80/20 ratio) to ensure an unbiased evaluation of model performance on unseen data. Crucially, all preprocessing steps (imputation, scaling, encoding) were fit _only_ on the training data and then applied to both training and validation sets.
+- **Categorical Encoding:** Categorical features were converted into a numerical format using OneHotEncoder.
+- **Data Splitting:** The training dataset was split into training and validation sets (80/20 ratio) to ensure an unbiased evaluation of model performance on unseen data.
 
 ### **Model Iteration**
 
