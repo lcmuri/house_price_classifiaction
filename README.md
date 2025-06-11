@@ -1,5 +1,7 @@
 # Housing Price Classification Project\*\*
 
+![](images/house.jpeg)
+
 ## **Overview**
 
 This project focuses on building a machine learning model to classify real estate properties as "High Value" or "Standard Value" based on historical sale data from the Kaggle Housing Price dataset. The primary goal is to shift from a regression problem (predicting exact sale prices) to a classification problem, enabling the real estate investment firm to make more informed and efficient decisions in identifying promising investment opportunities. The project encompasses the full data science lifecycle, from data understanding and preprocessing to iterative model development, evaluation, and the derivation of actionable business recommendations.
